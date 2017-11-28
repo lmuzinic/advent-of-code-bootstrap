@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-namespace AdventOfCode;
+namespace AdventOfCode\Bootstrap;
 
 use PHPUnit\Framework\Test;
 use PHPUnit\Framework\TestResult;
