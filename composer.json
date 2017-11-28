@@ -14,13 +14,9 @@
         "php": "7.1"
     },
     "require": {
-        "phpunit/phpunit": "^6.4",
-        "symfony/var-dumper": "^3.3"
+        "phpunit/phpunit": "^6.4"
     },
     "autoload": {
-        "psr-4": { "AdventOfCode\\Bootstrap\\": "src/" },
-        "files": [
-            "vendor/symfony/var-dumper/Resources/functions/dump.php"
-        ]
+        "psr-4": { "AdventOfCode\\Bootstrap\\": "src/" }
     }
 }
