@@ -13,16 +13,12 @@
     "platform": {
         "php": "7.1"
     },
-    "require": {},
-    "require-dev": {
+    "require": {
         "phpunit/phpunit": "^6.4",
         "symfony/var-dumper": "^3.3"
     },
     "autoload": {
-        "psr-4": { "AdventOfCode\\Bootstrap\\": "src/" }
-    },
-    "autoload-dev": {
-        "psr-4": { "AdventOfCode\\Bootstrap\\Tests\\": "tests/" },
+        "psr-4": { "AdventOfCode\\Bootstrap\\": "src/" },
         "files": [
             "vendor/symfony/var-dumper/Resources/functions/dump.php"
         ]
