@@ -12,7 +12,7 @@ The `AdventOfCode\Bootstrap\Day` interface consists of two methods that take puz
 
 ### TestPrinter
 
-The `AdventOfCodePrinter` is a custom test printer for PHPUnit. It suppresses all output during runtime, but records it, along with test case name and outputs it later one when all tests pass.
+The `AdventOfCodePrinter` is a custom test printer for PHPUnit. It suppresses all output during runtime, but records it, along with test case name and outputs it later when all tests pass.
 
 That way you can use PHPUnit to run actual puzzle input without assertions and display it so it can be submitted to Advent of Code.
 
